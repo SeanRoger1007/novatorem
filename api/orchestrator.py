@@ -652,7 +652,7 @@ def preview_page() -> Response:
 def redirect_to_song() -> Response:
     """Redirect to the currently playing song."""
     # Default fallback URL (e.g., project repository)
-    fallback_url = "https://github.com/novatorem/novatorem"
+    fallback_url = "https://github.com/SeanRoger1007"
 
     try:
         service_name, service = get_active_service()
